@@ -18,7 +18,7 @@ def play_game():
 play_game()
 
 while True:
-    replay = input("またやる？")
+    replay = input("またやる(y/n)？")
     if replay == "y":
         play_game()
     elif replay == "n":
